@@ -1,13 +1,99 @@
 <!DOCTYPE html>
-<html lang="eng"
-<h1 class="title">
-    Yonghoon Choi Net
-</h1>
-<form>
-    ID: <input value="아이디"/>
-    PW: <input type="password" value="비밀번호"/>
-    <input type="button" value="확인"
-    onclick='alert("로그인 되었습니다!")'/>
-</form>
+<html lang="en">
 
+<!--Head-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개</title>
+    <link rel="stylesheet" href="style.css">
 
+    <!--FONTS- ENG: Montserrat KOR: Noto Sans KR-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<!--Body-->
+<body>
+
+    <div class="frame">
+        <nav class="navigator">
+            <h3 class="site-name">YONGHOON CHOI</h3>
+            <ul>
+                <li><a class="nav_menu" href="https://www.instagram.com/yh_choi_98/">Instagram</a></li>
+
+                <li><a class="nav_menu" href="https://www.linkedin.com/in/yonghoon-choi-ba005b203">
+                    Linkedin</a></li>
+
+            </ul>
+        </nav>
+
+<!--Profile-->
+        <div class="profile-section">
+            <img id="profile-picture" src="profile.jpg">
+            <div class="introduction">
+                <h2>ABOUT ME</h2>
+                <p>열정적으로 배우고 성장 중인 비전공 초보 프론트엔드 개발자입니다.<br>
+                    이 자기소개 페이지는 코딩을 입문한지 일주일 만에 완성하였습니다.<br> 
+                    열심히 배우고 성장하여 웹 개발 분야에서 실력을 쌓아 
+                    앞으로 더 나은 사용자 경험을 제공하고자 합니다.<br>
+                </p>
+                <h2>CAPABILITY</h2> 
+                <p id="capability">
+                    HyperText Mark-up Language(HTML)<br>
+                    Cascading Style Sheets(CSS)<br>
+                    Java Script<br>
+                </p>
+            </div>
+        </div>
+
+<!--Value-->
+        <h5 class="value-menu">MY VALUES</h5>
+
+        <div class="value-section">
+
+            <div class="value">
+            <img class="value-icon" src="friends.png">
+            <div class="value-intro">
+                <h4 class="value-name">USER-CENTRIC</h4>
+                <p class="value-exp"> I prioritize creating web applications and websites that provide an exceptional user experience.<br>
+                     Understanding the needs and preferences of the end users is at the heart of my development process.<br>
+                </p>
+            </div>
+            </div>
+
+            <div class="value">
+                <img class="value-icon" src="reading-book.png">
+                <div class="value-intro">
+                    <h4 class="value-name">CONTINUOUS LEARNING</h4>
+                    <p class="value-exp"> In the fast-paced world of web development,<br> 
+                        I recognize the importance of staying up-to-date with the latest technologies and trends.<br>
+                         I am dedicated to ongoing learning and professional growth to keep my skills relevant and effective.<br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="value">
+                <img class="value-icon" src="idea.png">
+                <div class="value-intro">
+                    <h4 class="value-name">CREATIVITY</h4>
+                    <p class="value-exp"> I am passionate about finding innovative solutions and integrating creative design elements into my work.<br>
+                         This helps make the user interface visually engaging and keeps projects fresh and exciting.<br></p>
+                </div>
+            </div>
+        </div>
+        
+    <!--Footer-->
+        <footer class="footer">
+            <h3 class="contact">CONTACT ME</h3>
+            <p class="email">choi08092@gmail.com</p>
+            <div class="links">
+                <a class="instagram" href="https://www.instagram.com/yh_choi_98/">INSTAGRAM</a>
+                <a class="linkedin" href="https://www.linkedin.com/in/yonghoon-choi-ba005b203">LINKEDIN</a>
+            </div>
+            <p class="contact-me">Feel free contact me anytime!</p>
+            <p class="copyrights">Icon made by Freepik from www.flaticon.com</p>
+        </footer>
+</body>
+</html>
